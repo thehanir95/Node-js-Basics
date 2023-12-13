@@ -1,5 +1,7 @@
 const addFun = require("./add")
 
+require("./batman")
+require("./superman")
 
 const sum = addFun(1, 3)
 console.log('sum', sum);
