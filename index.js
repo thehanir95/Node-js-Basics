@@ -1,4 +1,6 @@
 const math = require('./math')
 
-console.log('add', math.add(3, 4));
-console.log('sub', math.substract(3, 4));
+const { add, substract } = math
+
+console.log('add', add(2, 3));
+console.log('sub', substract(7,1));
