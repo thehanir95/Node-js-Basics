@@ -1,9 +1,9 @@
-(function (){
+(function (message){
     const superHero = "batman"
-    console.log('superhero 1', superHero);
-})();
+    console.log(message, superHero);
+})('hey');
 
-(function (){
+(function (message){
     const superHero = "superman"
-    console.log('super hero 2', superHero);
-})();
+    console.log(message, superHero);
+})('hi');
