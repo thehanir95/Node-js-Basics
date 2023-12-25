@@ -1,13 +1,9 @@
-const addFun = require("./add")
+const superHero = require('./super-hero')
 
-require("./batman")
-require("./superman")
+const batman = new superHero('batman')
+console.log(batman.getName());
+batman.setName('john khanna')
+console.log(batman.getName());
 
-const sum = addFun(1, 3)
-console.log('sum', sum);
-
-const sum2 = addFun(6, 10)
-console.log('sum2', sum2);
-
-// we can type (node index) in terminal to run the node File
-
+const superMan = new superHero('superman')
+console.log(superMan.getName());
